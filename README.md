@@ -1,10 +1,7 @@
 # Python & Poetry in Docker
 
--	**DockerHub**:  
-	[Registry](https://hub.docker.com/r/pysergio/pypoetry)
+**Registry**: [DockerHub](https://hub.docker.com/r/pysergio/pypoetry)
 
--	**Where to create issues**:  
-	[https://github.com/s-nagaev/pypoetry-in-docker/issues](https://github.com/s-nagaev/pypoetry-in-docker/issues)
 
 # About
 
@@ -17,7 +14,7 @@ Thus images from this repository should be easy to use with most of the regular 
 
 # How to use this image
 
-## Create a `Dockerfile in your Python app project
+## Create a `Dockerfile` in your Python app project
 
 ```dockerfile
 FROM pysergio/pypoetry:3.9.7-alpine
@@ -44,4 +41,4 @@ $ docker run -it --rm --name my-running-app my-python-app
 # License
 
 View license information for [Python 3](https://docs.python.org/3/license.html) and [Poetry](https://github.com/python-poetry/poetry/blob/master/LICENSE). As with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).
-`
+
