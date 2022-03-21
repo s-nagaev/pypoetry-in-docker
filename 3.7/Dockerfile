@@ -1,6 +1,7 @@
-from python:3.9.7-alpine3.14
+from python:3.7.13-alpine3.15
 
 RUN apk update \
+    && apk upgrade \
     && apk add --no-cache --virtual .build-deps \
     ca-certificates gcc postgresql-dev linux-headers musl-dev \
     libffi-dev jpeg-dev zlib-dev git bash make curl build-base
