@@ -17,7 +17,7 @@ Thus images from this repository should be easy to use with most of the regular 
 ## Create a `Dockerfile` in your Python app project
 
 ```dockerfile
-FROM pysergio/pypoetry:3.9.7-alpine
+FROM pysergio/pypoetry:3.9-alpine
 
 WORKDIR /app
 
